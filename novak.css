@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+*{ box-sizing: border-box}.videocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+body {background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #FEFFBF;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    word-spacing: 10px;
+}
+.navbar-brand {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #000000;
+    text-align: left;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #FEFFC3;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+header {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: medium solid #6DAAA3;
+    border-radius: 25px;
+    letter-spacing: 10px;
+}
+.home {
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+aside {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+    font-style: normal;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.child {
+    flex: 1;
+}
+.flexbox {
+    display: flex;
+}
+.about{
+    background-color: #FFC2C3;	
+}
+.flex{	
+	flex:1;
+}
+.width{
+	width:100%;
+}
+article {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: #CAB8F9;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #000000;
+    border: thick solid #A67CFD;
+    border-radius: 20px;
+}
+body aside {
+}
+.want{
+    background-color: #7BE8FA;	
+}
+.form {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.good {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    margin-bottom: 25px;
+}
+main  {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flexbox.width .flex h6 {
+    text-align: center;
+    font-size: 50px;
+}
+.design {
+    background-color: #9EFFCE;
+    text-align: center;
+}
+.size {
+    width: 30%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 50px;
+    height: auto;
+}
+.jim-nightshade-regular {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.whoGet {
+    background-color: #05D96E;
+    text-align: center;
+    border-color: #F29B9D;
+}
+body article p {
+    text-align: center;
+    font-size: 50px;
+}
+.aside1 {
+    margin-top: 50px;
+    margin-right: 20%;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    width: 60%;
+    font-style: normal;
+    text-align: left;
+    font-size: 40px;
+}
+.size1 {
+    height: 500px;
+}
+.carousel-item.active .carousel-caption h5 {
+    font-size: 20px;
+    color: #000000;
+    text-shadow: 0px 0px 10px #FFFFFF;
+}
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+.nav-link:hover{
+	background-color: gold;
+}
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}.ifram1 {
+    margin-top: 50px;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    width: 50%;
+    height: 400px;
+}
+body table {
+    margin-left: 10%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-width: 5px;
+    margin-right: 0px;
+}
+.novakdance {
+    margin-top: 50px;
+    min-height: 500px;
+    text-align: center;
+    font-size: 30px;
+}
+.goal {
+    background-color: #AADC7B;
+}
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}.nice {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    background-color: #FF999A;
+    border-radius: 5px;
+    border-width: 4px;
+    border-color: #90F454;
+    font-size: 40px;
+    text-align: center;
+}
+.list {
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
