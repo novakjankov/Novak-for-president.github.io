@@ -16,7 +16,7 @@ nav {
     background-color: #FEFFBF;
     padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-left: 10px;
     word-spacing: 10px;
 }
@@ -230,4 +230,35 @@ body table {
     font-size: 45px;
     margin-left: 10%;
     margin-top: 50px;
+}
+.ull{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+}
+.aa {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.pp{
+ font-size: 30px;   
+    color: black;
+}
+.contrail-one-regular {
+  font-family: "Contrail One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.stack-sans-headline {
+  font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
