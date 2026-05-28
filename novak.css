@@ -167,6 +167,9 @@ body article p {
 .size1 {
     width:350px;
 }
+.size2 {
+    height:400px;
+}
 .carousel-item.active .carousel-caption h5 {
     font-size: 20px;
     color: #000000;
