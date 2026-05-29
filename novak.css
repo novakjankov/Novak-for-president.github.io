@@ -51,7 +51,7 @@ header {
     letter-spacing: 10px;
 }
 .home {
-	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 aside {
     width: 40%;
@@ -71,13 +71,13 @@ aside {
     display: flex;
 }
 .about{
-    background-color: #FFC2C3;	
+    background-color: #FFC2C3;
 }
-.flex{	
-	flex:1;
+.flex{
+flex:1;
 }
 .width{
-	width:100%;
+width:100%;
 }
 article {
     margin-top: 50px;
@@ -96,7 +96,7 @@ article {
 body aside {
 }
 .want{
-    background-color: #7BE8FA;	
+    background-color: #7BE8FA;
 }
 .form {
     width: 80%;
@@ -165,7 +165,12 @@ body article p {
     font-size: 40px;
 }
 .size1 {
-    width:350px;
+    max-width: 500px;
+    max-height: 500px;
+}
+.text1 {
+    text-align: center;
+    font-size: 50px;
 }
 .size2 {
     height:400px;
@@ -181,7 +186,7 @@ body article p {
   font-style: normal;
 }
 .nav-link:hover{
-	background-color: gold;
+background-color: gold;
 }
 .black-ops-one-regular {
   font-family: "Black Ops One", system-ui;
@@ -197,16 +202,18 @@ body article p {
 }
 body table {
     margin-left: 10%;
-    margin-top: 50px;
-    border-collapse: collapse;
-    border-width: 5px;
+    margin-top: 30px;
+    border: 5px ridge #07238A;
     margin-right: 0px;
+    text-align: left;
 }
 .novakdance {
     margin-top: 50px;
     min-height: 500px;
     text-align: center;
     font-size: 30px;
+    border-style: groove;
+    border-color: #2E0B7E;
 }
 .goal {
     background-color: #AADC7B;
@@ -251,7 +258,7 @@ ul li {
   text-decoration: none;
 }
 .pp{
- font-size: 30px;   
+ font-size: 30px;  
     color: black;
 }
 .contrail-one-regular {
@@ -265,6 +272,3 @@ ul li {
   font-weight: 400;
   font-style: normal;
 }
-
-}
-
